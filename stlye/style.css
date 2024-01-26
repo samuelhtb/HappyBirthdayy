@@ -258,12 +258,12 @@ left: 40%;
 	animation-duration: 7s;
 }
 
-.balloon:nth-child(8){
+/* .balloon:nth-child(8){
 	left: 80%;
 	top: 40%;
 	background-color: blue;
 	animation-duration: 3s;
-}
+} */
 .balloon:nth-child(9){
 	left: 90%;
 	top: 40%;
