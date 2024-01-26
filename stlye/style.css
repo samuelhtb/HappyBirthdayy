@@ -218,12 +218,12 @@ left: 40%;
 		top: 0%;
 	}
 }
-.balloon:nth-child(2){
+/* .balloon:nth-child(2){
 	left: 20%;
 	top: 40%;
 	background-color: yellow;
 	animation-duration: 3s;
-}
+} */
 /* .balloon:nth-child(3){
 	left: 30%;
 	top: 40%;
