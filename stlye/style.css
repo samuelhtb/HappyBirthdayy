@@ -16,12 +16,6 @@
   font-weight: 800;
   font-size: x-large;
   text-align: center;
-  animation: rise-4 4s 8s forwards;
-}
-@keyframes rise-4 {
-  100% {
-    top: 7px;
-  }
 }
 body {
   padding: 0px 25px 0px 25px;
@@ -230,19 +224,19 @@ left: 40%;
 	background-color: yellow;
 	animation-duration: 3s;
 }
-.balloon:nth-child(3){
+/* .balloon:nth-child(3){
 	left: 30%;
 	top: 40%;
 	background-color: lightpink;
 	animation-duration: 4s;
-}
+} */
 
-.balloon:nth-child(4){
+/* .balloon:nth-child(4){
 	left: 40%;
 	top: 40%;
 	background-color: crimson;
 	animation-duration: 5s;
-}
+} */
 
 .balloon:nth-child(5){
 	left: 50%;
@@ -251,12 +245,12 @@ left: 40%;
 	animation-duration: 6s;
 }
 
-.balloon:nth-child(6){
+/* .balloon:nth-child(6){
 	left: 60%;
 	top: 40%;
 	background-color: orange;
 	animation-duration: 2s;
-}
+} */
 .balloon:nth-child(7){
 	left: 70%;
 	top: 40%;
