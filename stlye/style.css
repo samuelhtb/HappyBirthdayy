@@ -83,7 +83,7 @@ body {
 }
 @keyframes rise-2 {
   100% {
-    top: 26px;
+    top: 26px
   }
 }
 .candle {
@@ -180,7 +180,7 @@ body {
   background-color: #ffffff;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 10%;
+  top: 15%;
   left: 50%;
   border-radius: 8px;
   box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
