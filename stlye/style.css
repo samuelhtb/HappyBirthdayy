@@ -29,7 +29,7 @@ body {
       radial-gradient(at 20% 98%, rgb(1, 200, 255) 0px, transparent 50%),
       radial-gradient(at 44% 9%, rgb(70, 117, 187) 0px, transparent 50%),
       radial-gradient(at 10% 9%, rgb(111, 147, 255) 0px, transparent 50%);
-  min-height: 100vh;
+  min-height: 180vh;
   margin: 50px;
 }
 .container {
@@ -190,6 +190,10 @@ body {
   justify-content: center; /* Center horizontally */
   
 }
+
+.gif {
+  width: 140px;
+}
 .balloon{
 	height: 60px;
 	width: 55px;
@@ -217,6 +221,58 @@ left: 40%;
 	100%{
 		top: 0%;
 	}
+}
+
+.container4 {
+  /* width: 400px;
+  height: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25); */
+  width: 400px;
+  height: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 114%;
+  left: 50%;
+  border-radius: 8px;
+  box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+  display: flex;
+  /* flex-direction: column-reverse; */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Center horizontally */
+  padding: 20px;
+}
+
+.container5 {
+  /* width: 400px;
+  height: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25); */
+  width: 400px;
+  height: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 156%;
+  left: 50%;
+  border-radius: 8px;
+  box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+  display: flex;
+  /* flex-direction: column-reverse; */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Center horizontally */
+  padding: 20px;
 }
 /* .balloon:nth-child(2){
 	left: 20%;
@@ -268,7 +324,7 @@ left: 40%;
 	left: 90%;
 	top: 40%;
 	background-color: crimson;
-	animation-duration: 4s;
+	animation-duration: 7s;
 }
 
 @media only screen and (max-width: 600px) {
@@ -282,6 +338,14 @@ left: 40%;
   }
 
   .container3 {
+    width: 350px;
+  }
+
+  .container4 {
+    width: 350px;
+  }
+
+  .container5 {
     width: 350px;
   }
 }
